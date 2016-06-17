@@ -1,13 +1,18 @@
 /*body background image*/
 
-body {
-  background: url(img/surf-tropical.png) no-repeat;
-  background-size: cover;
-}
+/*body {
+  background: url(../img/surf-tropical.png) no-repeat;
+  background-size: 100%;
+}*/
 
 /*Brand image modifications*/
+h1, h6 {
+  text-align: center;
+}
+
 .navbar {
   width: 80%;
+  margin: auto;
 }
 
 .navbar-left {
@@ -26,9 +31,8 @@ body {
 .row {
   margin-left: 0;
   margin-right: 0;
-  text-align: center;
   font-size: 10px;
-  background-color: #3076af;
+  /*background-color: #3076af;*/
 }
 
 ul {
@@ -41,11 +45,6 @@ li {
   text-align: center;
 }
 
-.col-md-3 {
-  border: 1px solid green;
-}
-
-.col-md-6 {
-  line-height: 60px;
-  border: 1px solid red;
+footer {
+  text-align: center;
 }
