@@ -2,12 +2,23 @@
 
 body {
   background: 100%;
-  background: url(https://unsplash.it/200/300?image=716) top left no-repeat;  
+  background: transparent url("https://unsplash.it/1000/300?image=610") top left no-repeat;
 }
 
-
 /*Brand image modifications*/
+.navbar {
+  width: 80%;
+}
 
-.brand {
+.navbar-left {
+  padding: 10px;
+}
 
+.navbar-brand {
+  font-size: 12px;
+  color: darkblue;
+}
+
+.navbar-right {
+  font-size: 12px;
 }
