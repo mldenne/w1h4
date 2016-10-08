@@ -91,12 +91,23 @@ li p {
   padding: 3px;
 }
 
+/*flexbox with images in footer*/
+.footer-pictures {
+  display: flex;
+}
+
+.footer-picture img {
+  width: 100%;
+  flex: 1;
+}
+
+
 /*footer modifications to bootstrap*/
-footer {
+/*footer {
   background: url(../img/surf-tropical.png) no-repeat;
   background-size: 100%;
-  text-align: center; s
-}
+  text-align: center;
+}*/
 
 footer div .row {
   text-align: center;
@@ -104,6 +115,8 @@ footer div .row {
   line-height: 50px;
 }
 /*text over images*/
+
+
 h4 {
   position: absolute;
   top: 200px;
