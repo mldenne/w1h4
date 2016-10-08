@@ -65,10 +65,10 @@ h6 {
   text-align: center;
 }
 
-.image {
+/*.image {
   position: relative;
   width: 100%;
-}
+}*/
 /*list formatting*/
 ul {
   list-style-type: none;
@@ -92,13 +92,38 @@ li p {
 }
 
 /*flexbox with images in footer*/
-.footer-pictures {
+
+.footer-container {
   display: flex;
 }
 
-.footer-picture img {
+.footer-pictures {
+  position: relative;
+  /*display: flex;*/
+}
+
+.footer-image {
+  /*position: relative;*/
   width: 100%;
   flex: 1;
+}
+
+/*text over images*/
+
+/*.footer-pictures h4 {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+}*/
+
+.caption {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  color: lightblue;
+  font: bold 20px Tahoma, sans-serif;
+  padding: 10px;
 }
 
 
@@ -113,19 +138,4 @@ footer div .row {
   text-align: center;
   margin: 20px;
   line-height: 50px;
-}
-/*text over images*/
-
-
-h4 {
-  position: absolute;
-  top: 200px;
-  left: 0;
-  width: 100%;
-}
-
-h4 span {
-  color: lightblue;
-  font: bold 20px Tahoma, sans-serif;
-  padding: 10px;
 }
