@@ -27,6 +27,16 @@ svg {
 
 .navbar-right span {
   padding: 5px 10px 0px 0px;
+  color: #79add8;
+}
+
+.navbar-right a {
+  color: #79add8;
+}
+
+.navbar-right a:hover {
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 .header-title {
