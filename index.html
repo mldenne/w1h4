@@ -14,6 +14,7 @@
   <header>
     <nav class="navbar">
       <div class="container-fluid">
+        <!-- put navbar right first for responsive -->
         <div class="navbar-right">
           <span><a href="#">ABOUT</a></span>
           <span><a href="#">SEARCH <span class="glyphicon glyphicon-search"></span></a></span>
@@ -57,7 +58,7 @@
         <div class="col-sm-3 blog-sidebar">
           <div class="sidebar-module">
             <img src="https://unsplash.it/75?image=680" alt="Responsive image" class="img-circle" />
-            <h6>Happy Smiley Face</h6>
+            <h6><center>Happy Smiley Face</center></h6>
             <p>
               <a href="http://www.twitter.com">Twitter</a> &nbsp;|&nbsp;
               <a href="http://www.facebook.com">Facebook</a> &nbsp;|&nbsp;
@@ -85,7 +86,7 @@
   <footer>
     <hr>
     <h3><center>MOST POPULAR POSTS</center></h3>
-    <div class="footer-container">
+    <div class="footer-container-flex">
       <div class="footer-images">
         <div>
           <img src="https://unsplash.it/800?image=909" class="img-responsive footer-single-image" alt="Responsive image" />
@@ -114,16 +115,21 @@
 
     <div class="container footer-bottom">
       <div class="row">
-        <div class="col-sm-6">
+        <!-- put navbar right first for responsive -->
+        <div class="col-sm-6 navbar-right">
+          <span>Nav Item 1</span>
+          <span>|</span>
+          <span>Nav Item 2</span>
+          <span>|</span>
+          <span>Nav Item 3</span>
+          <span>|</span>
+          <span>Nav Item 4</span>
+        </div>
+        <div class="col-sm-6 navbar-left">
           <img src="img/logo-surf-and-paddle.svg" alt="Responsive image" />
           <span>Surf and Paddle Co.</span>
         </div>
-        <div class="col-sm-6">
-          <span>Nav Item 1</span>
-          <span>Nav Item 2</span>
-          <span>Nav Item 3</span>
-          <span>Nav Item 4</span>
-        </div>
+
       </div>
     </div>
   </footer>
