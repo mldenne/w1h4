@@ -116,25 +116,25 @@ li p {
 
 /*flexbox for images in footer*/
 
-.footer-container-flex {
+footer .footer-container-flex {
   display: flex;
 }
 
-.footer-images {
+footer .footer-images {
   position: relative;
 }
 
-.footer-single-image {
+footer .footer-single-image {
   width: 100%;
 }
 
-.footer-single-image:hover {
+footer .footer-single-image:hover {
   opacity: .8;
 }
 
 /*text over images in footer*/
 
-.footer-image-caption {
+footer .footer-image-caption {
   position: absolute;
   top: 9em;
   left: 0.5em;
@@ -143,29 +143,30 @@ li p {
   font: bold 2vw Arial, sans-serif;
 }
 
-.footer-image-caption:hover {
+footer .footer-image-caption:hover {
   opacity: .8;
 }
 
 /*bottom row of footer*/
 
-.footer-bottom {
+footer .footer-bottom {
   width: 100%;
   background-color: #043752;
 }
 
-.footer-bottom .navbar-left {
+footer .footer-bottom .navbar-left {
   font-size: 14px;
   padding: 10px 0px 10px 0px;
   text-align: center;
   color: #79add8;
 }
 
-.footer-bottom .navbar-right {
+footer .footer-bottom .navbar-right {
   padding: 17px 0px 0px 0px;
   text-align: center;
+  color: #79add8;
 }
 
-.border-right {
+footer .border-right {
   border-left: 2px solid #79add8;
 }
