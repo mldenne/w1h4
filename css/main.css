@@ -21,14 +21,14 @@ header {
   text-decoration: none;
 }
 
-.navbar-left {
-  text-align: center;
+header .navbar-left {
+  text-align: left;
   color: #79add8;
 }
 
-.navbar-right {
+header .navbar-right {
   vertical-align: middle;
-  text-align: center
+  text-align: right;
 }
 
 .navbar-right span {
@@ -131,10 +131,13 @@ li p {
 .footer-bottom .navbar-left {
   font-size: 14px;
   padding: 10px 0px 10px 0px;
+  text-align: center;
+  color: #79add8;
 }
 
 .footer-bottom .navbar-right {
   padding: 17px 0px 0px 0px;
+  text-align: center;
 }
 
 .border-right {
