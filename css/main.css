@@ -1,5 +1,3 @@
-/*header and navbar*/
-
 header {
   background: url("https://unsplash.it/1000?image=848") no-repeat;
   background-size: cover;
@@ -7,16 +5,16 @@ header {
   margin-bottom: 2em;
 }
 
-.navbar {
+header .navbar {
   padding: 10px;
 }
 
-.navbar a {
+header .navbar a {
   color: #79add8;
   text-decoration: none;
 }
 
-.navbar a:hover {
+header .navbar a:hover {
   color: whitesmoke;
   text-decoration: none;
 }
@@ -31,19 +29,47 @@ header .navbar-right {
   text-align: right;
 }
 
-.navbar-right span {
+header .navbar-right span {
   padding: 5px 10px 0px 0px;
   color: #79add8;
 }
 
-.header-title {
+header .header-title {
   text-align: center;
   padding-top: 40px;
   color: whitesmoke;
 }
 
-.header-title h1 {
+header .header-title h1 {
   font-size: 4em;
+}
+
+main .button {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+main .button, main .button-icon, main .button-text {
+  display: inline-block;
+  float: left;
+}
+
+main .button-icon, main .button-text {
+  padding: 5px 8px;
+}
+
+main .button-icon {
+  background-color: #083452;
+  color: white;
+}
+
+main .button-text {
+  background-color: #A3B3BF;
+  color: white;
+}
+
+main .button:hover .button-text {
+  background-color: #1774B9;
 }
 
 /*blog modifications to bootstrap*/
