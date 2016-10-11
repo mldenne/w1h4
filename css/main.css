@@ -11,13 +11,19 @@ header {
   padding: 10px;
 }
 
+.navbar a {
+  color: #79add8;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
 .navbar-left {
   text-align: center;
   color: #79add8;
-}
-
-svg {
-  fill: whitesmoke;
 }
 
 .navbar-right {
@@ -28,15 +34,6 @@ svg {
 .navbar-right span {
   padding: 5px 10px 0px 0px;
   color: #79add8;
-}
-
-.navbar-right a {
-  color: #79add8;
-}
-
-.navbar-right a:hover {
-  color: whitesmoke;
-  text-decoration: none;
 }
 
 .header-title {
