@@ -43,12 +43,6 @@ header .header-title h1 {
   font-size: 4em;
 }
 
-main .row {
-  margin-left: 0;
-  margin-right: 0;
-  font-size: 10px;
-}
-
 main .button {
   margin-right: 10px;
   cursor: pointer;
@@ -75,6 +69,14 @@ main .button-text {
 
 main .button:hover .button-text {
   background-color: #1774B9;
+}
+
+/*blog modifications to bootstrap*/
+
+main .row {
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 10px;
 }
 
 main .sidebar-module img {
